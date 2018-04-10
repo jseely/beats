@@ -3,6 +3,18 @@
 	"ignore": "test",
 	"package": [
 		{
+			"checksumSHA1": "SC+IjoYjVvvtDMabTaFG1zPmH0U=",
+			"path": "github.com/Azure/azure-amqp-common-go",
+			"revision": "17f29fcc9c23d6c572ba236173c7a787aa6fd56d",
+			"revisionTime": "2018-03-28T23:21:42Z"
+		},
+		{
+			"checksumSHA1": "um0CXXQErxsp32d5vFg1Kcy3m2A=",
+			"path": "github.com/Azure/azure-event-hubs-go",
+			"revision": "f17a701d626c9f587530363f95e7a36080aa19ac",
+			"revisionTime": "2018-04-10T18:58:54Z"
+		},
+		{
 			"checksumSHA1": "AzjRkOQtVBTwIw4RJLTygFhJs3s=",
 			"path": "github.com/Microsoft/go-winio",
 			"revision": "f533f7a102197536779ea3a8cb881d639e21ec5a",
@@ -20,7 +32,7 @@
 		},
 		{
 			"checksumSHA1": "DYv6Q1+VfnUVxMwvk5IshAClLvw=",
-			"path": "github.com/Sirupsen/logrus",
+			"path": "github.com/sirupsen/logrus",
 			"revision": "5e5dc898656f695e2a086b8e12559febbfc01562",
 			"revisionTime": "2017-05-15T10:45:16Z"
 		},
@@ -123,6 +135,12 @@
 			"revisionTime": "2016-10-29T20:57:26Z",
 			"version": "v1.1.0",
 			"versionExact": "v1.1.0"
+		},
+		{
+			"checksumSHA1": "4772zXrOaPVeDeSgdiV7Vp4KEjk=",
+			"path": "github.com/dgrijalva/jwt-go",
+			"revision": "06ea1031745cb8b3dab3f6a236daf2b0aa468b7e",
+			"revisionTime": "2018-03-08T23:13:08Z"
 		},
 		{
 			"checksumSHA1": "Gj+xR1VgFKKmFXYOJMnAczC3Znk=",
@@ -1119,6 +1137,12 @@
 			"revisionTime": "2017-03-27T18:58:03Z"
 		},
 		{
+			"checksumSHA1": "ELL+JyJIjcZq9Ss+o43mwPmYz98=",
+			"path": "github.com/opentracing/opentracing-go",
+			"revision": "8013ba5856cd701278d1111c5b4dd69e580a86c9",
+			"revisionTime": "2018-04-09T14:57:48Z"
+		},
+		{
 			"checksumSHA1": "WmrPO1ovmQ7t7hs9yZGbr2SAoM4=",
 			"path": "github.com/pierrec/lz4",
 			"revision": "90290f74b1b4d9c097f0a3b3c7eba2ef3875c699",
@@ -1402,6 +1426,12 @@
 			"path": "golang.org/x/crypto/pbkdf2",
 			"revision": "5119cf507ed5294cc409c092980c7497ee5d6fd2",
 			"revisionTime": "2018-01-22T10:39:14Z"
+		},
+		{
+			"checksumSHA1": "PJY7uCr3UnX4/Mf/RoWnbieSZ8o=",
+			"path": "golang.org/x/crypto/pkcs12",
+			"revision": "f70185d77e8278766928032ee1355e3da47e7181",
+			"revisionTime": "2018-04-10T17:26:10Z"
 		},
 		{
 			"checksumSHA1": "iNE2KX9BQzCptlQC2DdQEVmn4R4=",

@@ -1,0 +1,19 @@
+[prune]
+  go-tests = true
+  unused-packages = true
+
+[[constraint]]
+    name = "pack.ag/amqp"
+    branch = "master"
+
+[[constraint]]
+    name = "github.com/Azure/azure-sdk-for-go"
+    version = "14"
+
+[[constraint]]
+    name = "github.com/Azure/azure-amqp-common-go"
+    version = "0.2.4"
+
+[[constraint]]
+  name = "github.com/Azure/azure-storage-blob-go"
+  branch = "master"

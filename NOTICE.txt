@@ -1990,10 +1990,10 @@ OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 --------------------------------------------------------------------
-Dependency: github.com/Sirupsen/logrus
+Dependency: github.com/sirupsen/logrus
 Revision: 5e5dc898656f695e2a086b8e12559febbfc01562
 License type (autodetected): MIT
-./vendor/github.com/Sirupsen/logrus/LICENSE:
+./vendor/github.com/sirupsen/logrus/LICENSE:
 --------------------------------------------------------------------
 The MIT License (MIT)
 
