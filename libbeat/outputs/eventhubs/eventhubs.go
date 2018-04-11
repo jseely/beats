@@ -24,7 +24,7 @@ type amqpClient struct {
 	index    string
 	observer outputs.Observer
 	client   *eventhub.Hub
-	config   *common.Config
+	config   *Config
 }
 
 func init() {
@@ -65,7 +65,7 @@ func makeEventHubClient(beat beat.Info, observer outputs.Observer, cfg *common.C
 		observer: observer,
 		codec:    enc,
 		client:   client,
-		config:   cfg,
+		config:   config,
 	}
 
 	return outputs.Success(1, 5, a)
