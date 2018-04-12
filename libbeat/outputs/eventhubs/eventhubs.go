@@ -73,7 +73,7 @@ func makeEventHubClient(beat beat.Info, observer outputs.Observer, cfg *common.C
 
 func (a *amqpClient) Close() error {
 	if a.client != nil {
-		return a.client.Close()
+		return a.client.Close(context.Background())
 	} else {
 		return nil
 	}
