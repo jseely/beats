@@ -10,3 +10,9 @@
 [submodule "vendor/github.com/opentracing/opentracing-go"]
 	path = vendor/github.com/opentracing/opentracing-go
 	url = git@github.com:opentracing/opentracing-go
+[submodule "vendor/github.com/Azure/go-autorest"]
+	path = vendor/github.com/Azure/go-autorest
+	url = git@github.com:Azure/go-autorest
+[submodule "vendor/pack.ag/amqp"]
+	path = vendor/pack.ag/amqp
+	url = git@github.com:vcabbage/amqp
