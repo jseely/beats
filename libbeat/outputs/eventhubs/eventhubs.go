@@ -131,7 +131,7 @@ func (a *amqpClient) publishEvent(event *publisher.Event) error {
 		ID:   messageId.String(),
 	}
 	if len(a.config.Properties) > 0 {
-		msg.Properties = make(map[string]interface{})
+		msg.Properties = make(map[string]string)
 		for k, v := range a.config.Properties {
 			msg.Properties[k] = v
 		}

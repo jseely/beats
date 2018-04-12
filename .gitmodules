@@ -1,6 +1,6 @@
 [submodule "vendor/github.com/Azure/azure-amqp-common-go"]
 	path = vendor/github.com/Azure/azure-amqp-common-go
-	url = git@github.com:Azure/azure-amqp-common-go
+	url = git@github.com:devigned/azure-amqp-common-go
 [submodule "vendor/github.com/Azure/azure-event-hubs-go"]
 	path = vendor/github.com/Azure/azure-event-hubs-go
 	url = git@github.com:devigned/azure-event-hubs-go
