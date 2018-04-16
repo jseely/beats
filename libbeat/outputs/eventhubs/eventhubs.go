@@ -68,7 +68,7 @@ func makeEventHubClient(beat beat.Info, observer outputs.Observer, cfg *common.C
 		config:   &config,
 	}
 
-	return outputs.Success(1, 5, a)
+	return outputs.Success(1, config.MaxRetries, a)
 }
 
 func (a *amqpClient) Close() error {
@@ -102,7 +102,7 @@ func (a *amqpClient) Publish(batch publisher.Batch) error {
 			// Record Stats
 			st.Acked(i)
 			st.Failed(len(events))
-			return err
+			return nil
 		}
 	}
 
